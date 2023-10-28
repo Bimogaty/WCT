@@ -1,4 +1,4 @@
-/* * {
+* {
     padding: 0;
     margin: 0;
 }
@@ -30,54 +30,4 @@ a:hover {
 .active {
     background-color: #18a3fa;
     color: #000000;
-} */
-
-
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(220, 220, 220);
-}
-
-li {
-    float: left;
-}
-
-a {
-    display: block;
-    color: #000000;
-    text-align: center;
-    padding: 18px 22px;
-    text-decoration: none;
-}
-
-a:hover {
-    background-color: #18a3fa;
-}
-
-.active {
-    background-color: #18a3fa;
-    color: #000000;
-}
-
-/* Media Query for Phones */
-@media (max-width: 768px) {
-    ul {
-        width: 100%;
-        text-align: center;
-    }
-
-    li {
-        float: none;
-        display: inline;
-    }
 }
