@@ -1,4 +1,4 @@
-/* * {
+* {
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -24,50 +24,4 @@ a:hover {
 .active {
 	background-color: #196F3D;
 	color: white;
-} */
-
-
-
-* {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-nav {
-    width: 100%;
-    background-color: #d7d5d5;
-    text-align: left;
-}
-
-a {
-    color: #566573;
-    display: block;
-    padding: 20px;
-    text-decoration: none;
-}
-
-a:hover {
-    background-color: #196F3D;
-    color: white;
-}
-
-.active {
-    background-color: #196F3D;
-    color: white;
-}
-
-/* Media Query for Phones */
-@media (max-width: 768px) {
-    nav {
-        width: 100%;
-    }
-}
-
-/* Media Query for PCs */
-@media (min-width: 769px) {
-    nav {
-        width: 20%;
-        float: left;
-    }
 }
