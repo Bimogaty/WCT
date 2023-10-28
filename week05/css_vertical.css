@@ -1,3 +1,33 @@
+/* * {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+nav {
+	width: 20%;
+}
+
+a {
+	background-color: #d7d5d5;
+	color: #566573;
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #196F3D;
+	color: white;
+}
+
+.active {
+	background-color: #196F3D;
+	color: white;
+} */
+
+
+
 * {
     padding: 0;
     margin: 0;
